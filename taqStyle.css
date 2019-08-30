@@ -1,0 +1,22 @@
+.puzzle {
+     position: relative;
+ }
+.tuile {
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.looser {
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+    background-color: dodgerblue;
+}
+
+.caseVide {
+    position: absolute;
+}
